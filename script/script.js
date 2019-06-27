@@ -1,11 +1,14 @@
-document.getElementById('github').onclick = function(){
-   console.log('Изучил git и github');
-   console.log('Изучил git и github');
-};
+let money;
+let income;
+let addExpress;
+let deposit;
+let mission;
+let period;
 
 
-let message = function(){
-  alert('Изучил git и github');
-};
 
-document.getElementById('github').addEventListener('click', message);
+alert('Hello World');
+
+
+console.log('I am learning JS');
+
