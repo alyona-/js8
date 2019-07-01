@@ -50,20 +50,21 @@ question2 = 15000; question4=15000;
 // console.log('TEST TS '+money -(question2 + question4));
 // alert('isNAN2 = '+isNaN(money -(question2 + question4)));
 
-let budgetMonth =money;
+let budgetMonth = money -(question2 + question4);
+console.log('Доход за месяц: ', budgetMonth);
 
-if(isNaN(question2) && isNaN(question4)){
-    budgetMonth = budgetMonth -(question2 + question4);
-    console.log('Доход за месяц: ', budgetMonth);
-}
+// if(isNaN(question2) && isNaN(question4)){
+//     budgetMonth =
+//     console.log('Доход за месяц: ', budgetMonth);
+// }
 
 
 
 //7) Зная budgetMonth, посчитать за сколько месяцев будет достигнута цель mission, вывести в консоль, округляя в большую сторону
+console.log('budgetMonth ',budgetMonth);
+let temp = Math.ceil(mission/budgetMonth,0);
 
-let temp = mission/budgetMonth;
-
-console.log('Цель будет достигнута за: ', temp);
+console.log('Цель будет достигнута за: ', temp , ' месяцев');
 
 
 
