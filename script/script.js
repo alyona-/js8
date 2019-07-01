@@ -69,20 +69,20 @@ let question4 =+prompt("Во сколько это обойдется?");
 
 //6) Вычислить доход за месяц, учитывая обязательные расходы, сохранить в переменную budgetMonth и вывести результат в консоль
 //Выполняю проверку на число, если не число, значит не учитываю расходы
-isNaN(question2)?question2=0:question2;
-isNaN(question4)?question4=0:question4;
-let budgetMonth = money -(question2 + question4);
+isNaN(question2) ? question2 = 0 : question2;
+isNaN(question4) ? question4 = 0 : question4;
+let budgetMonth = money - (question2 + question4);
 console.log('Доход за месяц: ', budgetMonth);
 
 //7) Зная budgetMonth, посчитать за сколько месяцев будет достигнута цель mission, вывести в консоль, округляя в большую сторону
-let countMonth = Math.ceil(mission/budgetMonth,0);
+let countMonth = Math.ceil(mission/budgetMonth, 0);
 console.log('Цель будет достигнута за: ', countMonth , ' месяцев');
 
 
 
 //8) Поправить budgetDay учитывая бюджет на месяц, а не месячный доход. Вывести в консоль  округлив в меньшую сторону (методы объекта Math в помощь)
-let budgetDay =Math.floor(budgetMonth/30,0);
-console.log('Ежедневный доход: ',budgetDay);
+let budgetDay =Math.floor(budgetMonth/30, 0);
+console.log('Ежедневный доход: ', budgetDay);
 
 //9) Написать конструкцию условий
 /*Если budgetDay больше 800, то “Высокий уровень дохода”
