@@ -58,6 +58,15 @@ console.log(typeof money);
 console.log(typeof income);
 console.log(typeof deposit);
 
+
+
+let showTypeof = function (item) {
+    console.log('Type: '+item, typeof item);
+};
+
+showTypeof(money);
+showTypeof(income);
+showTypeof(deposit);
 //5) Спросить у пользователя по 2 раза каждый вопрос и записать ответы в переменные
 /*
  “Какие обязательные ежемесячные расходы у вас есть?”
