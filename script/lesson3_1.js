@@ -19,7 +19,7 @@ console.log("addExpenses: ", addExpenses);
 
 //3) Спросить у пользователя “Есть ли у вас депозит в банке?” и сохранить данные в переменной deposit (булевое значение true/false)
 //let deposit =true;
-let deposit =prompt("Есть ли у вас депозит в банке?").replace(" ", "");
+/*let deposit =prompt("Есть ли у вас депозит в банке?").replace(" ", "");
 
 switch (deposit) {
     case "есть":
@@ -48,7 +48,9 @@ switch (deposit) {
         break;
     default :
         deposit = false;
-}
+} */
+let deposit =confirm("Есть ли у вас депозит в банке?");
+
 
 
 //4) Вывести в консоль типы данных money, income, deposit
