@@ -66,3 +66,5 @@ function getStatusIncome() {
 
 }
 
+console.log("Накопления за период: ", accumulatedMonth);
+console.log("getStatusIncome(): ",  getStatusIncome());
