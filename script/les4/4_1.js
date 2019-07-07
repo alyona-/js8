@@ -46,10 +46,9 @@ function getTargetMonth(mission, budgetMonth){
     return Math.floor(mission/budgetMonth, 0);
 }
 
-console.log("Накопления за период: ", accumulatedMonth);
+
 
 let countMonth = getTargetMonth(mission, accumulatedMonth);
-console.log("Срок достижения цели в месяцах: ", countMonth);
 
 
 let budgetDay =Math.floor(budgetMonth/30, 0);
@@ -67,4 +66,3 @@ function getStatusIncome() {
 
 }
 
-console.log("getStatusIncome(): ",  getStatusIncome());
