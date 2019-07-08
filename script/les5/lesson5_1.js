@@ -1,4 +1,3 @@
-//let money = +prompt("Ваш месячный доход?", "70000");
 let income ="500000";
 let addExpenses = prompt("Перечислите возможные расходы за рассчитываемый период через запятую", "3000,4000,5000").replace(" ", "").split(",");
 let deposit =confirm("Есть ли у вас депозит в банке?");
@@ -12,7 +11,6 @@ let start = function(){
         money = prompt("Ваш месячный доход?");
         console.log(money);
     }
-    //return money;
     console.log(money);
 };
 
