@@ -9,7 +9,7 @@
  */
 
 function isString(arg1) {
-    if(!arg1 === "string"){
+    if(typeof arg1 !== "string"){
          return "В функцию передана не строка";
     }else {
         arg1 = arg1.trim();
@@ -21,4 +21,4 @@ function isString(arg1) {
     }
 }
 
-console.log(isString(prompt("Введите строку ...")));
+//console.log(isString(prompt("Введите строку ...")));
