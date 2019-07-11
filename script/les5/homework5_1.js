@@ -3,15 +3,19 @@ let addExpenses = prompt("Перечислите возможные расход
 let deposit =confirm("Есть ли у вас депозит в банке?");
 let mission = 200000;
 let period =1;
-
+let money;
 
 //1) Переписать функцию start циклом do while
-do {
-    money = prompt("Ваш месячный доход?");
+let start = function() {
 
-}while(isNaN(money) || money =='' ||money==null);
+    do {
+        money = prompt("Ваш месячный доход?");
 
+    } while (isNaN(money) || money == '' || money == null);
+    return money;
+};
 
+console.log("money = "+start());
 
 
 
