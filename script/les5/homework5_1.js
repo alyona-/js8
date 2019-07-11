@@ -77,17 +77,15 @@ let getTargetMonth = function() {
 
 //4) Если budgetDay отрицательное значение то вместо уровня дохода пусть выводится сообщение “Что то пошло не так”
 let getStatusIncome =function() {
-    if(budgetDay() < 0) {
-        return "Что то пошло не так";
-    }else {
-        if (budgetDay() >= 800) {
-            return "Высокий уровень дохода";
-        } else if (budgetDay() >= 300 && budgetDay() < 800) {
-            return "Средний уровень дохода";
-        } else if (budgetDay() >= 0 && budgetDay() < 300) {
-            return "Низкий уровень дохода";
-        }
-    }
+   if(budgetDay() >= 800) {
+       return "Высокий уровень дохода";
+   }else if(budgetDay() >= 300 && budgetDay() < 800) {
+       return "Средний уровень дохода";
+   }else if(budgetDay() >= 0 && budgetDay() < 300) {
+       return "Низкий уровень дохода";
+   }else if(budgetDay() < 0){
+       return "Что-то пошло не так.";
+   }
 };
 getStatusIncome();
 console.log("Накопления за период: ", incomePeriod());
