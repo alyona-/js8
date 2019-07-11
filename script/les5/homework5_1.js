@@ -7,17 +7,13 @@ let money;
 
 //1) Переписать функцию start циклом do while
 let start = function() {
-
     do {
         money = prompt("Ваш месячный доход?");
 
     } while (isNaN(money) || money == '' || money == null);
-    return money;
 };
 
-money =start();
-
-
+start();
 
 let expenses1,
     expenses2;
@@ -32,7 +28,7 @@ let expensesMonth =  function (){
         }
         let tmp;
         do {
-            tmp = prompt("Во сколько это обойдется ");
+            tmp = +prompt("Во сколько это обойдется ");
             if( !((isNaN(tmp) || tmp =='' ||tmp==null) )) {
                 sum+=parseInt(tmp);
             }
@@ -93,7 +89,7 @@ let getStatusIncome =function() {
         }
     }
 };
-
+getStatusIncome();
 console.log("Накопления за период: ", incomePeriod());
 
 //3) Если getTargetMonth возвращает нам отрицательное значение то вместо “Цель будет достигнута”, необходимо выводить “Цель не будет достигнута”
