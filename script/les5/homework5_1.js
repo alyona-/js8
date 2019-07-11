@@ -15,7 +15,7 @@ let start = function() {
     return money;
 };
 
-console.log("money = "+start());
+money =start();
 
 
 
