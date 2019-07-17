@@ -1,6 +1,6 @@
 
 let addExpenses = prompt("Перечислите возможные расходы за рассчитываемый период через запятую", "3000,4000,5000").replace(" ", "").split(",");
-let deposit =confirm("Есть ли у вас депозит в банке?");
+//let deposit =confirm("Есть ли у вас депозит в банке?");
 let mission = 200000;
 let period =1;
 let money;
@@ -28,8 +28,15 @@ appData.expensesMonth =0;
 appData.incomeMonth =0;
 //let income ="500000";
 
-//Объект с дополнительным заработком
+//Объект с дополнительным заработком, в нем содержится название дополнительного заработка и сумма
 appData.income ={};
+
+
+//Хранит годовой процент депозита
+appData.depositYear =0;
+
+//Хранит объект в котором тариф депозита и сумма
+appData.deposit ={};
 
 
 
@@ -37,7 +44,7 @@ appData.income ={};
 
 let expenses;
 appData.getExpensesMonth =  function (){
-     appData.expensesMonth =appData.asking();
+    appData.expensesMonth =appData.asking();
     return appData.expensesMonth;
 };
 
@@ -45,38 +52,28 @@ appData.getExpensesMonth =  function (){
 let question, tmpName, tmpValue;
 //Получение дополнительного дохода
 appData.getIncome = function(){
-   do {
-       question = confirm("Есть ли у вас дополнительный заработок?");
-       if(question === true) {
-           break;
-       }else {
-           alert(" А если подумать ...? ");
-       }
-
-   }while(question === true);
-
-
-   do {
-       tmpName = prompt("Откуда у вас дополнительный заработок?", "freelance");
-   }while(isNaN(tmpName) || tmpName =='' ||tmpName==null);
-
-
-    do {
-       tmpValue =  prompt("Сколько денег?", 100000);
-    }while(isNaN(tmpValue) || tmpValue == '' || tmpValue == null);
-
-
-    appData.income[tmpName] = tmpValue;
-
+    question = validBoolean("Есть ли у вас дополнительный заработок?");
+    tmpName = validString("Откуда у вас дополнительный заработок?", "freelance");
+    tmpValue  =validNumber("Сколько денег?", 100000);
+    appData.income[tmpName] = parseInt(tmpValue);
     appData.incomeMonth =appData.income[tmpName];
-
-
 
 };
 
 appData.getIncome();
 
 
+
+appData.getDeposit = function() {
+    question = validBoolean("Есть ли у вас депозит в банке?");
+    tmpName = validString("Какой тариф депозита", " VIP");
+    tmpValue =validNumber("Сумма на счету", 10000);
+    appData.deposit[tmpName] =parseInt(tmpValue);
+    appData.depositYear = Math.floor((appData.deposit[tmpName]*0.5*365)/(365*100) );
+
+};
+
+appData.getDeposit();
 
 
 
@@ -86,15 +83,13 @@ appData.asking = function() {
     appData.expenses = {};
     for(let i =0; i < 2; i++ ){
         if(i === 0) {
-            expenses = prompt("Введите обязательную статью расходов?", "food");
+            expenses = validString("Введите обязательную статью расходов?", "food");
         }else if(i === 1) {
-            expenses = prompt("Введите обязательную статью расходов?", "water");
+            expenses = validString("Введите обязательную статью расходов?", "water");
         }
         let tmp;
-        do {
-            tmp = +prompt("Во сколько это обойдется ");
-        }while(isNaN(tmp) || tmp =='' ||tmp==null);
-         appData.expenses[expenses]=tmp;
+        tmp = validNumber("Во сколько это обойдется", 5000);
+        appData.expenses[expenses]=tmp;
     }
 
     for(key in appData.expenses) {
@@ -128,8 +123,8 @@ appData.getStatusIncome =function() {
 
 
 let expensesAmount = appData.getExpensesMonth();
-    appData.accumulateMonth = function () {
-        return appData.budget -appData.expensesMonth;
+appData.accumulateMonth = function () {
+    return appData.budget -appData.expensesMonth;
 };
 
 
@@ -150,7 +145,6 @@ let incomePeriod =function() {
 
 appData.getStatusIncome();
 
-
 console.log("Расходы за месяц: ", appData.expensesMonth);
 if(appData.getTargetMonth() < 0) {
     console.log("Цель не будет достигнута");
@@ -165,4 +159,33 @@ let i=1;
 for(key in appData) {
     console.log(i+". appData."+key+" = "+appData[key]);
     i++;
+}
+
+
+
+
+
+
+function validBoolean(ask) {
+    let boolAsk ;
+    do {
+        question = confirm(ask);
+    }while(question != true);
+    return boolAsk;
+}
+
+function validString(ask, tmpStr) {
+    let str ="";
+    do {
+        tmpName = prompt(ask, tmpStr);
+    }while(isNaN(tmpName)===false || tmpName =='' ||tmpName==null);
+    return str;
+}
+
+function validNumber(ask, tmpValue){
+    let value;
+    do {
+        value =+prompt(ask, tmpValue);
+    }while(isNaN(value)===true || value == '' || value == null);
+    return value;
 }

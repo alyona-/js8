@@ -37,7 +37,7 @@ appData.income ={};
 
 let expenses;
 appData.getExpensesMonth =  function (){
-     appData.expensesMonth =appData.asking();
+    appData.expensesMonth =appData.asking();
     return appData.expensesMonth;
 };
 
@@ -45,29 +45,18 @@ appData.getExpensesMonth =  function (){
 let question, tmpName, tmpValue;
 //Получение дополнительного дохода
 appData.getIncome = function(){
-   do {
-       question = confirm("Есть ли у вас дополнительный заработок?");
-       if(question === true) {
-           break;
-       }else {
-           alert(" А если подумать ...? ");
-       }
-
-   }while(question === true);
-
-
-   do {
-       tmpName = prompt("Откуда у вас дополнительный заработок?", "freelance");
-   }while(isNaN(tmpName) || tmpName =='' ||tmpName==null);
-
 
     do {
-       tmpValue =  prompt("Сколько денег?", 100000);
-    }while(isNaN(tmpValue) || tmpValue == '' || tmpValue == null);
+        question = confirm("Есть ли у вас дополнительный заработок?");
+    }while(question != true);
+    do {
+        tmpName = prompt("Откуда у вас дополнительный заработок?", "freelance");
+    }while(isNaN(tmpName)===false || tmpName =='' ||tmpName==null);
 
-
-    appData.income[tmpName] = tmpValue;
-
+    do {
+        tmpValue =  prompt("Сколько денег?", 100000);
+    }while(isNaN(tmpValue)===true || tmpValue == '' || tmpValue == null);
+    appData.income[tmpName] = parseInt(tmpValue);
     appData.incomeMonth =appData.income[tmpName];
 
 
@@ -77,7 +66,22 @@ appData.getIncome = function(){
 appData.getIncome();
 
 
+function validBoolean()
 
+
+
+function validString(ask, nameStr) {
+    let str ="";
+    return str;
+}
+
+function validNumber(ask){
+    let value;
+    do {
+        value =+prompt(ask);
+    }while(isNaN(value)===true || value == '' || value == null);
+    return value;
+}
 
 
 
@@ -92,9 +96,9 @@ appData.asking = function() {
         }
         let tmp;
         do {
-            tmp = +prompt("Во сколько это обойдется ");
+            tmp =+validNumber("Во сколько это обойдется");
         }while(isNaN(tmp) || tmp =='' ||tmp==null);
-         appData.expenses[expenses]=tmp;
+        appData.expenses[expenses]=tmp;
     }
 
     for(key in appData.expenses) {
@@ -128,8 +132,8 @@ appData.getStatusIncome =function() {
 
 
 let expensesAmount = appData.getExpensesMonth();
-    appData.accumulateMonth = function () {
-        return appData.budget -appData.expensesMonth;
+appData.accumulateMonth = function () {
+    return appData.budget -appData.expensesMonth;
 };
 
 
