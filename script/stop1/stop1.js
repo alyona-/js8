@@ -1,6 +1,4 @@
-
-let addExpenses = prompt("Перечислите возможные расходы за рассчитываемый период через запятую", "3000,4000,5000").replace(" ", "").split(",");
-//let deposit =confirm("Есть ли у вас депозит в банке?");
+let addExpenses = validExpenses("Перечислите возможные расходы за рассчитываемый период через запятую", "3000,4000,5000");
 let mission = 200000;
 let period =1;
 let money;
@@ -30,6 +28,9 @@ appData.incomeMonth =0;
 
 //Объект с дополнительным заработком, в нем содержится название дополнительного заработка и сумма
 appData.income ={};
+
+
+
 
 
 //Хранит годовой процент депозита
@@ -169,16 +170,17 @@ for(key in appData) {
 function validBoolean(ask) {
     let boolAsk ;
     do {
-        question = confirm(ask);
-    }while(question != true);
+        boolAsk = confirm(ask);
+    }while(boolAsk !== true);
     return boolAsk;
 }
 
 function validString(ask, tmpStr) {
-    let str ="";
+    let str;
     do {
-        tmpName = prompt(ask, tmpStr);
-    }while(isNaN(tmpName)===false || tmpName =='' ||tmpName==null);
+        str = prompt(ask, tmpStr);
+    }while(isNaN(str)===false || str =='' ||str==null);
+
     return str;
 }
 
@@ -189,3 +191,23 @@ function validNumber(ask, tmpValue){
     }while(isNaN(value)===true || value == '' || value == null);
     return value;
 }
+
+function validExpenses(q, tmpValue){
+    let arr;
+    let result;
+    do {
+        arr = prompt(q, tmpValue).replace(" ", "").split(",");
+        result= arr.filter(arrNum => isNaN(arrNum) ===false);
+
+    }while(arr.length!=result.length || result.length==0 || arr==''|| arr==null);
+    return arr;
+}
+
+
+
+ console.log(Object.entries(appData.expenses)
+     .map(item =>item[0])
+     .join(" ")
+     .split(/\s+/).map(arr => arr[0].toUpperCase() + arr.substring(1))
+     .join(', ')
+);
