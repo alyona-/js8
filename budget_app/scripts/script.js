@@ -26,6 +26,9 @@ let addIncome =document.querySelectorAll('.additional_income-item');
 let incomeTitle = document.querySelector('.income-title');
 let incomeAmount= document.querySelector('.income-amount');
 
+//Период расчета
+ let range = document.querySelector('.period-select');
+
 for(let i=0; i<btn_plus.length;i++){
    let classList = btn_plus[i].classList.toString();
     classList=classList.split(' ');
