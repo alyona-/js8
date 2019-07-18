@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d98c0f-dde6-4c23-b799-bc8eb7d0ba4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/script/stop1/upperTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/image/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/image/open_book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/image/you-dont-know-js.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/scripts/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/scripts/script2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/you-dont-know-js/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/stop1/stop1.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/stop1/stop1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stop1.html" beforeDir="false" afterPath="$PROJECT_DIR$/stop1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,31 +24,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stop1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/stop1/stop1.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/you-dont-know-js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="n#div#1;n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#aside#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#aside#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upperTest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/stop1/upperTest.js">
+      <file leaf-file-name="script2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/you-dont-know-js/scripts/script2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="186">
+              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stop1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stop1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
+      <file leaf-file-name="you-dont-know-js.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/you-dont-know-js.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="open_book.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/open_book.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="adv.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/adv.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -78,6 +96,8 @@
       <find>getAc</find>
       <find>budgetMonth</find>
       <find>expe</find>
+      <find>sort</find>
+      <find>script</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -89,9 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/script/script.js" />
-        <option value="$PROJECT_DIR$/script/lesson3_1.js" />
         <option value="$PROJECT_DIR$/script/les4/train4.js" />
         <option value="$PROJECT_DIR$/script/les4/train4_2.js" />
         <option value="$PROJECT_DIR$/train4.html" />
@@ -136,9 +153,13 @@
         <option value="$PROJECT_DIR$/script/les6/homework6_2.js" />
         <option value="$PROJECT_DIR$/script/les6/homework6_1.js" />
         <option value="$PROJECT_DIR$/script/stop1/stop0.js" />
-        <option value="$PROJECT_DIR$/stop1.html" />
         <option value="$PROJECT_DIR$/script/stop1/upperTest.js" />
         <option value="$PROJECT_DIR$/script/stop1/stop1.js" />
+        <option value="$PROJECT_DIR$/stop1.html" />
+        <option value="$PROJECT_DIR$/you-dont-know-js/scripts/script1.js" />
+        <option value="$PROJECT_DIR$/you-dont-know-js/index.html" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/you-dont-know-js/scripts/script2.js" />
       </list>
     </option>
   </component>
@@ -157,7 +178,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="85" />
     <option name="y" value="133" />
     <option name="width" value="1659" />
@@ -180,13 +201,13 @@
             <path>
               <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="you-dont-know-js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="stop1" type="462c0819:PsiDirectoryNode" />
+              <item name="you-dont-know-js" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,15 +228,16 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/script/les4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tz/l3" />
       <recent name="$PROJECT_DIR$/script/les3" />
       <recent name="$PROJECT_DIR$/tz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/script/les4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,21 +358,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66915000" />
+    <option name="totallyTimeSpent" value="84128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="133" width="1659" height="852" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2893773" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32786885" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29735234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -397,50 +419,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/w1.html" />
-    <entry file="file://$PROJECT_DIR$/script/w1/w1_1.js" />
-    <entry file="file://$PROJECT_DIR$/script/les6/homework6_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework6_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework6_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/lesson3_1.js" />
     <entry file="file://$PROJECT_DIR$/script/lesson3_1.js" />
     <entry file="file://$PROJECT_DIR$/old/index.html">
@@ -639,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stop1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -653,8 +631,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/stop1/stop1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+        <state relative-caret-position="262">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/you-dont-know-js.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/open_book.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/adv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/scripts/script1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#1;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#aside#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#aside#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/you-dont-know-js/scripts/script2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
         </state>
       </provider>
     </entry>
