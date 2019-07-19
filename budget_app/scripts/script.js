@@ -63,7 +63,7 @@ let appData = {
         }
         appData.budget = +salaryAmount.value;
 
-
+        console.log("start this: ", this);
 
 
         appData.getExpenses();
@@ -96,7 +96,7 @@ let appData = {
 
       incomePeriodValue.value = appData.calcPeriod();
 
-
+      console.log("showResult this: ", this);
 
 
     },
@@ -241,3 +241,8 @@ if(appData.getTargetMonth() > 0){
 }
 
 console.log(appData.getStatusIncome());
+
+
+setTimeout(function(){
+    appData.start();
+},1000);
