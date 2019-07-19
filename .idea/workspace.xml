@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d98c0f-dde6-4c23-b799-bc8eb7d0ba4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/budget_app/scripts/lesson06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget_app/scripts/script__old2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/budget_app/scripts/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/budget_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/budget_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget_app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/budget_app/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/budget_app/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/budget_app/scripts/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +20,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+            <state relative-caret-position="791">
+              <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson06.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lesson06.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1665">
+              <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -33,26 +38,17 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="434">
+              <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/budget_app/scripts/test.js">
+      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/budget_app/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson06.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/budget_app/scripts/lesson06.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="154" column="10" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="44" />
+            <state relative-caret-position="185">
+              <caret line="420" column="31" selection-start-line="420" selection-start-column="26" selection-end-line="420" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -70,36 +66,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getExpensesMonth()</find>
-      <find>getAc</find>
-      <find>budgetMonth</find>
-      <find>expe</find>
-      <find>sort</find>
-      <find>script</find>
-      <find>alert</find>
-      <find>additional_income-item</find>
-      <find>additional_expenses-item</find>
-      <find>additional_ex</find>
-      <find>range</find>
-      <find>income</find>
-      <find>btn_plus</find>
-      <find>budget</find>
-      <find>accumu</find>
-      <find>additionalInc</find>
-      <find>additionalEx</find>
-      <find>additional</find>
-      <find>cashIncome</find>
-      <find>asking</find>
-      <find>addExpensesBlo</find>
-      <find>expenses</find>
-      <find>расч</find>
-      <find>start</find>
-      <find>salaryA</find>
-      <find>рас</find>
       <find>getExpenses</find>
       <find>getIncome</find>
       <find>getExpensesMonth</find>
+      <find>asking</find>
       <find>Income</find>
+      <find>appData.expensesMonth</find>
+      <find>budgetMonthValue</find>
+      <find>expensesMonthValue=</find>
+      <find>рас</find>
+      <find>expensesMonthValue</find>
+      <find>epenses_month-value</find>
+      <find>фppData.expensesMonth</find>
+      <find>expenses</find>
+      <find>incomeItem</find>
+      <find>getAdd</find>
+      <find>additional_expenses-item</find>
+      <find>addExpensesBlo</find>
+      <find>expensesPlus</find>
+      <find>periodSelect</find>
+      <find>1</find>
+      <find>targetAmount</find>
+      <find>target-amount</find>
+      <find>period</find>
+      <find>show</find>
+      <find>Дневно</find>
+      <find>budgetDayValue</find>
+      <find>start</find>
+      <find>targetMonthValue</find>
+      <find>Рассчитать</find>
+      <find>target</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/script/les3/lesson3_1.js" />
-        <option value="$PROJECT_DIR$/tz/l4/les4_z1.txt" />
         <option value="$PROJECT_DIR$/tz/l4/les4_z2.txt" />
         <option value="$PROJECT_DIR$/script/les4/train4_5.js" />
         <option value="$PROJECT_DIR$/lesson4_1.html" />
@@ -161,6 +155,8 @@
         <option value="$PROJECT_DIR$/budget_app/scripts/script_old.js" />
         <option value="$PROJECT_DIR$/budget_app/scripts/test.js" />
         <option value="$PROJECT_DIR$/budget_app/index.html" />
+        <option value="$PROJECT_DIR$/test/tasks8.js" />
+        <option value="$PROJECT_DIR$/budget_app/css/style.min.css" />
         <option value="$PROJECT_DIR$/budget_app/scripts/script.js" />
       </list>
     </option>
@@ -181,8 +177,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="85" />
-    <option name="y" value="133" />
+    <option name="x" value="48" />
+    <option name="y" value="134" />
     <option name="width" value="1659" />
     <option name="height" value="852" />
   </component>
@@ -209,7 +205,18 @@
               <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_JS" type="462c0819:PsiDirectoryNode" />
               <item name="budget_app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_JS" type="462c0819:PsiDirectoryNode" />
+              <item name="budget_app" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_JS" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,15 +234,15 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/old" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tz/l3" />
       <recent name="$PROJECT_DIR$/script/les3" />
-      <recent name="$PROJECT_DIR$/tz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -360,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105589000" />
+    <option name="totallyTimeSpent" value="115016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -370,6 +377,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -390,7 +398,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32786885" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
@@ -422,11 +429,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/les3_z1.txt" />
     <entry file="file://$PROJECT_DIR$/script/train.js" />
     <entry file="file://$PROJECT_DIR$/script/ex2.js" />
     <entry file="file://$PROJECT_DIR$/script/lesson3_2.js" />
@@ -646,9 +652,6 @@
     <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/open_book.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/you-dont-know-js/image/adv.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -673,38 +676,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/scripts/script__old2.js">
+    <entry file="file://$PROJECT_DIR$/test/script__old2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/scripts/lesson06.js">
+    <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="154" column="10" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="44" />
+        <state relative-caret-position="506">
+          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/scripts/test.js">
+    <entry file="file://$PROJECT_DIR$/test/tasks8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="581">
+          <caret line="188" column="39" selection-start-line="188" selection-start-column="39" selection-end-line="188" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget_app/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="420" column="31" selection-start-line="420" selection-start-column="26" selection-end-line="420" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/budget_app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+        <state relative-caret-position="791">
+          <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lesson06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="434">
+          <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
         </state>
       </provider>
     </entry>
