@@ -69,13 +69,13 @@ let appData = {
         appData.showResult();
     },
     showResult: function(){
-      budgetMonthValue.value = appData.budgetMonth;
-      budgetDayValue.value = appData.budgetDay;
-      expensesMonthValue.value = appData.expensesMonth;
-      additionalExpensesValue.value =appData.addExpenses.join(", ");
-      additionalIncomeValue.value =appData.addIncome.join(", ");
-      targetMonthValue.value = Math.ceil(appData.getTargetMonth());
-      incomePeriodValue.value = appData.calcPeriod();
+        budgetMonthValue.value = appData.budgetMonth;
+        budgetDayValue.value = appData.budgetDay;
+        expensesMonthValue.value = appData.expensesMonth;
+        additionalExpensesValue.value =appData.addExpenses.join(", ");
+        additionalIncomeValue.value =appData.addIncome.join(", ");
+        targetMonthValue.value = Math.ceil(appData.getTargetMonth());
+        incomePeriodValue.value = appData.calcPeriod();
     },
     addExpensesBlock: function(){
         let cloneExpensesItem = expensesItems[0].cloneNode(true);
@@ -118,12 +118,12 @@ let appData = {
         })
     },
     getAddIncome: function(){
-      additionalIncomeItem.forEach(function(item){
-          let itemValue = item.value.trim();
-          if(itemValue !== '') {
-              appData.addIncome.push(itemValue);
-          }
-      })
+        additionalIncomeItem.forEach(function(item){
+            let itemValue = item.value.trim();
+            if(itemValue !== '') {
+                appData.addIncome.push(itemValue);
+            }
+        })
     },
     getInfoDeposit: function (){
         appData.deposit = confirm("Есть ли у вас депозит в банке?");
@@ -142,22 +142,22 @@ let appData = {
 
 
     getBudget:function(){
-      appData.budgetMonth =appData.budget + appData.incomeMonth - appData.expensesMonth;
-      appData.budgetDay = appData.budgetMonth /30;
+        appData.budgetMonth =appData.budget + appData.incomeMonth - appData.expensesMonth;
+        appData.budgetDay = appData.budgetMonth /30;
     },
     getTargetMonth: function(){
-      return appData.mission /appData.budgetMonth;
+        return appData.mission /appData.budgetMonth;
     },
     getStatusIncome: function(){
-      if(appData.budgetDay > 800) {
-          return "Высокий уровень дохода";
-      }else if(appData.budgetDay > 300 ){
-          return "Средний уровень дохода";
-      } else if(appData.budgetDay > 0) {
-          return "Низкий уровень дохода";
-      } else {
-          return "Что-то пошло не так";
-      }
+        if(appData.budgetDay > 800) {
+            return "Высокий уровень дохода";
+        }else if(appData.budgetDay > 300 ){
+            return "Средний уровень дохода";
+        } else if(appData.budgetDay > 0) {
+            return "Низкий уровень дохода";
+        } else {
+            return "Что-то пошло не так";
+        }
 
     },
 

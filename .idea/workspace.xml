@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d98c0f-dde6-4c23-b799-bc8eb7d0ba4b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/budget_app/scripts/lesson06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/budget_app/scripts/script__old2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/budget_app/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/budget_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/budget_app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/budget_app/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/budget_app/scripts/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,29 +21,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/you-dont-know-js/scripts/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="10" column="8" selection-start-line="9" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="80" column="56" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="56" />
+            <state relative-caret-position="335">
+              <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/budget_app/scripts/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson06.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/budget_app/scripts/lesson06.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="154" column="10" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -56,21 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>targetMonth</find>
-      <find>money</find>
-      <find>getExpensesMonth</find>
-      <find>ExpensesMonth</find>
-      <find>getStatu</find>
-      <find>getTar</find>
-      <find>accumula</find>
-      <find>getStatusIncome</find>
-      <find>incomePeriod</find>
-      <find>budgetDay</find>
-      <find>expensesMonth</find>
-      <find>getAccumulatedMonth</find>
-      <find>appData.getAccumulatedMonth</find>
-      <find>getTargetMonth</find>
-      <find>income</find>
       <find>getExpensesMonth()</find>
       <find>getAc</find>
       <find>budgetMonth</find>
@@ -80,9 +79,27 @@
       <find>alert</find>
       <find>additional_income-item</find>
       <find>additional_expenses-item</find>
-      <find>budget</find>
-      <find>range</find>
       <find>additional_ex</find>
+      <find>range</find>
+      <find>income</find>
+      <find>btn_plus</find>
+      <find>budget</find>
+      <find>accumu</find>
+      <find>additionalInc</find>
+      <find>additionalEx</find>
+      <find>additional</find>
+      <find>cashIncome</find>
+      <find>asking</find>
+      <find>addExpensesBlo</find>
+      <find>expenses</find>
+      <find>расч</find>
+      <find>start</find>
+      <find>salaryA</find>
+      <find>рас</find>
+      <find>getExpenses</find>
+      <find>getIncome</find>
+      <find>getExpensesMonth</find>
+      <find>Income</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -94,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/train4.html" />
-        <option value="$PROJECT_DIR$/script/les4/train4_3.js" />
-        <option value="$PROJECT_DIR$/script/les4/train4_4.js" />
         <option value="$PROJECT_DIR$/script/les3/lesson3_1.js" />
         <option value="$PROJECT_DIR$/tz/l4/les4_z1.txt" />
         <option value="$PROJECT_DIR$/tz/l4/les4_z2.txt" />
@@ -143,6 +157,9 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/you-dont-know-js/scripts/script2.js" />
         <option value="$PROJECT_DIR$/you-dont-know-js/index.html" />
+        <option value="$PROJECT_DIR$/budget_app/scripts/lesson06.js" />
+        <option value="$PROJECT_DIR$/budget_app/scripts/script_old.js" />
+        <option value="$PROJECT_DIR$/budget_app/scripts/test.js" />
         <option value="$PROJECT_DIR$/budget_app/index.html" />
         <option value="$PROJECT_DIR$/budget_app/scripts/script.js" />
       </list>
@@ -163,7 +180,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="85" />
     <option name="y" value="133" />
     <option name="width" value="1659" />
@@ -192,23 +209,6 @@
               <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_JS" type="462c0819:PsiDirectoryNode" />
               <item name="budget_app" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="you-dont-know-js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="you-dont-know-js" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="you-dont-know-js" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -360,20 +360,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91373000" />
+    <option name="totallyTimeSpent" value="105589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="133" width="1659" height="852" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2893773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4385246" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3268839" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29735234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,21 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script/lesson3_1.js" />
-    <entry file="file://$PROJECT_DIR$/old/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/les3_z1.txt" />
     <entry file="file://$PROJECT_DIR$/script/train.js" />
     <entry file="file://$PROJECT_DIR$/script/ex2.js" />
@@ -688,17 +673,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/budget_app/scripts/script__old2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="191">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget_app/scripts/lesson06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="154" column="10" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget_app/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/budget_app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="80" column="56" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="56" />
+        <state relative-caret-position="335">
+          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
         </state>
       </provider>
     </entry>
