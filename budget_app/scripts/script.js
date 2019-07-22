@@ -55,14 +55,16 @@ let appData = {
     moneyDeposit: 0,
     period:1,
     mission:0,
-    start : function(event) {
+    start : function() { /*event*/
+        alert("work 2");
         if(salaryAmount.value ==='') {
-            event.preventDefault();
             return;
         }
-         this.budget = +salaryAmount.value;
+        this.budget = +salaryAmount.value;
 
         console.log("start this: ", this);
+        console.log(this.budget);
+        console.log(salaryAmount.value);
 
 
         this.getExpenses();
@@ -74,6 +76,7 @@ let appData = {
 
         this.getBudget();
         this.showResult();
+        alert("work3");
 
         dataInputItems.forEach(function(item){
             item.disabled = true;
@@ -244,15 +247,19 @@ let appData = {
         }
     }
 };
-start.addEventListener('click',
 
-    appData.start.bind(appData)
 
-);
+let startContext = appData.start.bind(appData);
+let cancelContext = appData.cancel.bind(appData);
+
+
+start.addEventListener('click',startContext);
+cancel.addEventListener('click',cancelContext);
+
 
 
 const tmpData = JSON.parse(JSON.stringify(appData));
-cancel.addEventListener('click', appData.cancel.bind(appData));
+
 
 
 
