@@ -1,20 +1,4 @@
-/*
-1) Сделать класс DomElement, который
 
-   содержит свойства
-
-  - selector,
-
-  - height,
-
-  - width,
-
-  - bg,
-
-  - fontSize
-содержит метод, который создает элемент на странице если в селектор передана строка начинающаяся с точки ‘.’
-создавать <div></div> с таким классом если с решетки ‘#’, то создать параграф <p></p>
- */
 
 function DomElement(selector, height, weight, bg, fontSize) {
     this.selector =selector;
@@ -59,3 +43,8 @@ NewObject.prototype.constructor = NewObject;
 let el1 =new NewObject(".blue", "300px", "200px","blue", "20px");
 
 el1.elements1();
+
+
+let el2 =new NewObject("#red", "300px", "200px","red", "20px");
+
+el2.elements1();
