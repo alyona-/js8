@@ -58,15 +58,19 @@ let appData = {
         this.getAddIncome();
         this.getBudget();
         this.showResult();
-        dataInputItems.forEach(function (item) {
-            item.disabled = true;
-        });
         start.style.display = 'none';
         cancel.style.display = 'block';
+        let input = document.querySelectorAll('.calc input');
+        input.forEach(function (item) {
+            item.disabled = true;
+        });
+        expensesPlus.removeEventListener('click', appData.addExpensesBlock);
+        incomePlus.removeEventListener('click', appData.addIncomeBlock);
+
     },
 
     cancel: function () {
-        let input = document.querySelectorAll('input');
+        let input = document.querySelectorAll('.calc input');
         let button = document.querySelectorAll('button');
         input.forEach(function (item) {
             item.value = '';
@@ -81,6 +85,9 @@ let appData = {
         this.removeIncomeBlock();
         this.expensesMonth = 0;
         this.incomeMonth = 0;
+        depositCheck.checked = false;
+        this.deposit = false;
+
     },
 
     showResult: function () {
@@ -229,7 +236,7 @@ cancel.addEventListener('click', appData.cancel.bind(appData));
 expensesPlus.addEventListener('click', appData.addExpensesBlock);
 incomePlus.addEventListener('click', appData.addIncomeBlock);
 
-periodSelect.addEventListener('change', function (event) {
+periodSelect.addEventListener('input', function (event) {
     periodAmount.textContent = event.target.value;
 }, false);
 
