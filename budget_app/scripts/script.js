@@ -63,6 +63,7 @@ let appData = {
         let input = document.querySelectorAll('.calc input');
         input.forEach(function (item) {
             item.disabled = true;
+            item.value = '';
         });
         expensesPlus.removeEventListener('click', appData.addExpensesBlock);
         incomePlus.removeEventListener('click', appData.addIncomeBlock);
