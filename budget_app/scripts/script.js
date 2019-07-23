@@ -64,8 +64,6 @@ let appData = {
         input.forEach(function (item) {
             item.disabled = true;
         });
-        expensesPlus.removeEventListener('click', appData.addExpensesBlock);
-        incomePlus.removeEventListener('click', appData.addIncomeBlock);
 
     },
 
