@@ -5,9 +5,9 @@ window.addEventListener('DOMContentLoaded', function(){
     //Timer
     function countTimer(deadline){
         let seconds, minutes, hours,day;
-        let timerHours =document.querySelector('#timer-hours'),
-            timerMinutes =document.querySelector('#timer-minutes'),
-            timerSeconds =document.querySelector('#timer-seconds');
+        let timerHours =document.querySelector('#output-hours'),
+            timerMinutes =document.querySelector('#output-minutes'),
+            timerSeconds =document.querySelector('#output-seconds');
 
 
         function getTimeRemaining(){

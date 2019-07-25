@@ -14,7 +14,6 @@ window.addEventListener('DOMContentLoaded', function () {
             else
                 day = Math.floor(timeRemaining / 60 / 60 / 24);
             return day;
-
         }
 
         function getWeek(todayNum) {
@@ -41,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 ny = new Date('01 january ' + (today.getFullYear() + 1));
             textCon.innerHTML = `${hello(today.getHours())}<br>
                        Сегодня: ${getWeek(today.getDay())}<br>
-                       Текущее время: ${today.toLocaleTimeString('EN')}<br>
+                       Текущее время: ${today.toLocaleTimeString('en')}<br>
                         До нового года осталось дней: ${getCountDay(ny, today)} дней`;
             clearTimeout(idTimeout);
         }
