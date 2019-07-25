@@ -50,8 +50,8 @@ const AppData = function () {
             return;
         }
         this.budget = +salaryAmount.value;
-        this.getObject('.expenses-items');
-        this.getObject('.income-items');
+        this.getExpenses();
+        this.getIncome();
         this.getAddObject('.additional_income-item');
         this.getAddObject('.additional_expenses-item');
         this.getExpensesMonth();
@@ -147,24 +147,26 @@ const AppData = function () {
 
         this.addIncome = [];
     };
-    this.getObject = function (selector) {
-        let someItems = document.querySelectorAll(selector);
-        let objectName = selector.match(/[A-Za-z]+/)[0];
-        someItems.forEach((item) => {
-            let itemSome = item.querySelector('.' + objectName + '-title').value;
-            let cashSome = item.querySelector('.' + objectName + '-amount').value;
-            if (itemSome !== '' && cashSome !== '') {
-                if (objectName === 'expenses') {
-                    this.expenses[itemSome] = parseInt(cashSome);
-                } else if (objectName === 'income') {
-                    this.income[itemSome] = parseInt(cashSome);
-                }
-
+    this.getExpenses = function () {
+        let expensesItems = document.querySelectorAll('.expenses-items');
+        expensesItems.forEach((item) => {
+            let itemExpenses = item.querySelector('.expenses-title').value;
+            let cashExpenses = item.querySelector('.expenses-amount').value;
+            if (itemExpenses !== '' && cashExpenses !== '') {
+                this.expenses[itemExpenses] = parseInt(cashExpenses);
             }
         });
     };
-
-
+    this.getIncome = function () {
+        let incomeItem = document.querySelectorAll('.income-items');
+        incomeItem.forEach((item) => {
+            let itemIncome = item.querySelector('.income-title').value;
+            let cashIncome = item.querySelector('.income-amount').value;
+            if (itemIncome !== '' && cashIncome !== '') {
+                this.income[itemIncome] = cashIncome;
+            }
+        });
+    };
     this.getAddObject = function (selector) {
         let someItem;
         if (selector === '.additional_expenses-item') {
