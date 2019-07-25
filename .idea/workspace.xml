@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/budget_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+            <state relative-caret-position="199">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -29,17 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/budget_app/scripts/script2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="183" column="12" lean-forward="true" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="46" />
+            <state relative-caret-position="-2586">
+              <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -57,15 +48,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>work</find>
-      <find>appData</find>
-      <find>cons</find>
-      <find>expensesMonth</find>
       <find>app</find>
       <find>getBudget</find>
       <find>forEach</find>
       <find>addExpensesBloc</find>
-      <find>+</find>
       <find>expenses_add</find>
       <find>getAddIncome=</find>
       <find>item</find>
@@ -81,12 +67,17 @@
       <find>some</find>
       <find>block</find>
       <find>expenses[</find>
-      <find>expenses-Item</find>
       <find>Object</find>
       <find>expensesItems</find>
       <find>Block</find>
       <find>additionalExpensesItem</find>
       <find>addIncome</find>
+      <find>this.incomeMonth</find>
+      <find>expenses-Item</find>
+      <find>add</find>
+      <find>alert</find>
+      <find>console</find>
+      <find>+</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -346,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167501000" />
+    <option name="totallyTimeSpent" value="171653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,19 +385,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -560,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/budget_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/budget_app/scripts/script2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -574,10 +558,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/budget_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/budget_app/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-806">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="-2586">
+          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
         </state>
       </provider>
     </entry>
