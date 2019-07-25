@@ -120,6 +120,13 @@ const AppData= function(){
         if (someItem.length === 3) {
             someButton.style.display = 'none';
         }
+
+        if(classBlock ==='income_add'){
+            incomeItem =someItem;
+        }else if(classBlock==='expenses_add'){
+            expensesItems=someItem;
+        }
+
     };
     this.removeSomeBlock= function () {
         for(let i=0;i<2;i++){
@@ -164,21 +171,20 @@ const AppData= function(){
     this.getAddObject = function (selector) {
         let someItem;
         if(selector==='.additional_expenses-item') {
-            someItem =additionalExpensesItem.value.split(',');
+            someItem =additionalExpensesItem.value.split(",");
         }else {
-            someItem=additionalIncomeItem.value.split(',');
+            someItem=additionalIncomeItem;
         }
-        console.dir(this);
-        someItem.forEach( (item) => {
-            if (item !== '') {
-                if(selector==='.additional_income-item'){
-                    this.addIncome.push(item.trim());
-                }else if(selector==='.additional_expenses-item'){
-                    this.addExpenses.push(item.trim());
+            someItem.forEach((item) => {
+                if (selector === '.additional_income-item') {
+                    let itemValue = item.value.trim();
+                    if(itemValue!=='') this.addIncome.push(itemValue);
+                } else if (selector === '.additional_expenses-item') {
+                    if(item.trim()!=='') this.addExpenses.push(item.trim());
                 }
 
-            }
-        });
+            });
+
 
 
     };
@@ -198,6 +204,7 @@ const AppData= function(){
         for (let key in this.expenses) {
             this.expensesMonth += this.expenses[key];
         }
+        alert('this.expensesMonth ='+this.expensesMonth);
     };
 
     this.getBudget= function () {
